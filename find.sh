@@ -19,7 +19,6 @@ bootstrap() {
     exit 1
   fi
 
-  CONSTANT_LIST=constant_list.log
   BASE_DIR=${1%/}
   
   _log "Directory: $BASE_DIR"
